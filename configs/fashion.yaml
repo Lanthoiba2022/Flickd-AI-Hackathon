@@ -1,0 +1,14 @@
+path: E:/FLICKD_CODE/configs
+train: E:/FLICKD_CODE/Dataset/train/images
+val: E:/FLICKD_CODE/Dataset/valid/images
+test: E:/FLICKD_CODE/Dataset/test/images
+
+nc: 5
+names: ['accessory', 'dress', 'earrings', 'handbag', 'shoes']
+
+roboflow:
+  workspace: genzshopping
+  project: fashiondetection-4pber
+  version: 1
+  license: Private
+  url: https://app.roboflow.com/genzshopping/fashiondetection-4pber/1
