@@ -4,7 +4,7 @@
 This MVP implements Flickd's intelligent system for:
 - Extracting frames from fashion videos
 - Detecting fashion items using YOLOv8
-- Matching detected items to product catalog using CLIP embeddings
+- Matching detected items to product catalog using CLIP embeddings & FAISS
 - Classifying video vibes using NLP
 
 ## Setup Instructions
@@ -24,7 +24,7 @@ Ensure your project follows this structure:
 ```
 submission/
 ├── videos/              # Your video files (.mp4)
-├── catalog.csv         # Product catalog
+├── catalog.csv(product_data + images)         # Product catalog
 ├── vibeslist.json     # Vibe categories
 ├── outputs/            # Generated JSON outputs (created automatically)
 ├── models/             # Downloaded models and cache (created automatically)
