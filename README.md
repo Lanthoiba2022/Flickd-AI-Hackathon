@@ -66,4 +66,6 @@ For each video, generates a JSON file in `outputs/` directory:
       "confidence": 0.85 
     } 
   ] 
-}# Flickd-AI-Hackathon
+}
+
+Google Colab Link: https://colab.research.google.com/drive/1uIv3fIZOCwrE4cCf2c7Tqq_AiPeQgi1c?usp=sharing
